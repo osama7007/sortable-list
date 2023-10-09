@@ -30,4 +30,3 @@ listItems.forEach((item) => {
     item.classList.add("odd")
   }
 })
-

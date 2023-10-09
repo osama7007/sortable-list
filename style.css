@@ -1,70 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background:url('backGround.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    color: white;
-    font-family: 'Recursive', sans-serif;
+body {
+  background: url("backGround.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: white;
+  font-family: "Recursive", sans-serif;
 }
-body::after{
-    content: '';
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(0, 0, 0, .6);
-    z-index: -1;
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
-ul{
-    list-style-type: none;
-    font-size: 24px;
+ul {
+  list-style-type: none;
+  font-size: 24px;
 }
 header h1 {
-    text-transform: uppercase;
-    margin: 10px 0;
+  text-transform: uppercase;
+  margin: 10px 0;
 }
 ul li {
-    margin: 10px 0;
-    cursor: pointer;
-    width: 200px;
-    text-align: center;
-    font-weight: 700;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  font-weight: 700;
 }
 ul li[data-id].even {
-    background-color: lightskyblue;
-    padding: 10px;
-    border-radius: 5px;
+  background-color: lightskyblue;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 ul li[data-id].odd {
-    background-color: lightcoral;
-    padding: 10px;
-    border-radius: 5px;
+  background-color: lightcoral;
+  padding: 10px;
+  border-radius: 5px;
 }
-.display_data{
-    text-align: center;
-    margin: 20px 0;
+.display_data {
+  text-align: center;
+  margin: 20px 0;
 }
 .display_data h2 {
-    font-size: 30px;
-    letter-spacing: 3px;
+  font-size: 30px;
+  letter-spacing: 3px;
 }
-.List_data{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 18px;
-    font-weight: 700;
+.List_data {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 700;
 }
